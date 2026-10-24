@@ -2,28 +2,25 @@
 title: SparPilot Terms of Use
 ---
 # SparPilot — Terms of Use
-**Last updated: 18 October 2026**
 
-SparPilot is a private personal-finance analysis project under development. These terms describe its intended use and limitations. Publishing this page does not mean a production bank connection has been approved or launched.
+**Last updated: 24 October 2026**
 
-## Intended service
-SparPilot is designed to offer read-only access to financial information explicitly authorized by the user, for budgeting, categorization, transaction reconciliation and possible savings recommendations.
+## Service and current status
+SparPilot is a private, AI-assisted personal finance project with live read-only bank-information connectivity currently available for Nordea and SAS EuroBonus Mastercard through Enable Banking. It is intended for its operator's own financial overview, reconciliation, budgeting and potential savings analysis.
 
-SparPilot does **not** provide payment initiation, transfers, investment execution or financial account management. It does not act as the user's bank.
+The connected plugin can retrieve authorized account/card information, balances and transactions, and save personal account display names. It can start and complete separate bank-consent flows on express user request. It does **not** initiate bank payments, transfers, investment transactions or credit decisions, and is not a bank.
 
-## Access and authorization
-Any banking connection must use the applicable provider and bank authorization process. Only accounts covered by valid permissions and the provider's applicable terms may be accessed. Authorization for accounts on which the user is a representative or disponent must not be inferred from ownership of other accounts.
+## Authorization and access
+Access is limited to the authenticated user and accounts within valid bank/provider authorizations. Ownership of one account or access to one bank is not authorization for another person's accounts. The user must approve bank authorization via the bank's relevant flow. Never supply banking credentials, BankID codes, signing keys or access tokens to chat or GitHub.
 
-The user must not paste banking credentials, BankID codes, private signing keys or tokens into chat messages or public repositories.
+## Financial information and AI
+The assistant's financial summaries are informational, not a replacement for bank statements or regulated individualized advice. Missing bank data, delayed postings, estimated categorization and incomplete card coverage can affect results. Verify material decisions against source data; no automatic financial action should be taken solely from AI-generated analysis.
 
-## Information quality
-Financial analyses are informational, not regulated financial advice. Estimates, transfer classifications and potential savings must be identified as estimates unless corroborated by reliable source records. Partial account coverage or missing card invoices can make totals incomplete or misleading.
+## Privacy and security
+See the [Privacy Policy](../privacy/) for data flows involving ChatGPT/OpenAI, the SparPilot backend, Auth0, Railway, Neon, Enable Banking and banks, as well as current limits of retention and deletion verification. Some security measures are implemented and tested, while infrastructure logs, end-to-end deletion and supplier conditions remain under review. No uninterrupted availability or full security certification is promised.
 
-## Security and availability
-The application is supplied as a private development project. No production availability, bank connectivity, uninterrupted operation or complete protection against security risks is promised. Live financial data must not be connected before authorization, encryption, deletion, revocation and security controls have been implemented and reviewed.
+## Service boundaries
+This project is for personal use, not a public financial service. Use by other people, commercial provision, payment functionality or substantially different profiling would require separate security, contractual and regulatory review.
 
-## Third-party services
-Nordea, Enable Banking and other possible data providers operate under their own terms, restrictions and privacy notices. These terms do not override provider requirements.
-
-## Changes and contact
-These terms may be updated as the project develops. For questions, use the application contact details registered with Enable Banking.
+## Providers and changes
+Third-party services operate under their own applicable agreements and privacy notices; these terms do not override them. This notice will be updated when functionality or processing materially changes. Contact the operator using the application details registered with Enable Banking.
